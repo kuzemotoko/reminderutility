@@ -18,7 +18,7 @@ if [ ! -f $rememberfile ] ; then
   else
   #Otherwise, search through the file for the given terms, and display 
   #   the results neatly.
-  grep -i -- $@ $rememberfile | ${PAGER:-more} 
+  grep -i -- "$@" $rememberfile | ${PAGER:-more} 
   fi
   
   exit 0
