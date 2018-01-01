@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 #remindme--Searches a data file for matching lines or, if no 
 #arguments is specified, shows the entire contents of the data file
 
